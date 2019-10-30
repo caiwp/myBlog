@@ -1,0 +1,38 @@
+baseurl = "https://caiwp.github.io"
+languageCode = "zh-cn"
+theme = "terminal"
+paginate = 10
+preserveTaxonomyNames = true
+publishDir = "../caiwp.github.io"
+[Permalinks]
+ posts =  "/:year/:filename/"
+
+[params]
+  contentTypeName = "post"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "orange"
+  showMenuItems = 1
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+    subtitle = "My blog"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
