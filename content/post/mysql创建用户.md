@@ -9,7 +9,7 @@ showFullContent: false
 
 https://www.cnblogs.com/chanshuyi/p/mysql_user_mng.html
 
-```mysql
+```sql
 创建用户
 create user zhangsan identified by 'zhangsan';
 开权限
